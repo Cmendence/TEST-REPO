@@ -1,4 +1,4 @@
-var ageRequiredToDrive = 16;
+var ageRequiredToDrive = 18;
 var currentAge = 17;
 var canPersonDrive = currentAge >= ageRequiredToDrive;
 
