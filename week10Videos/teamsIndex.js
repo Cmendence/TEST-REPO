@@ -29,7 +29,7 @@ let teamId = 0;
 onClick('new-team', () => {
     teams.push(new Team(teamId++, getValue('new-team-name')));
     drawDOM();
-})
+});
 
 function onClick(id, action) {
 let element = document.getElementById(id);
@@ -117,11 +117,11 @@ let nameTh = document.createElement('th');
 let positionTh= document.createElement('th'); 
 let createTh = document.createElement('th');
 let nameInput = document.createElement('input'); 
-nameInput.setAttribute('id', `name-input-${team.id}`)
+nameInput.setAttribute('id', `name-input-${team.id}`);
 nameInput.setAttribute('type', 'text');
 nameInput.setAttribute('class', 'form-control');
 let positionInput = document.createElement('input'); 
-positionInput.setAttribute('id', `position-input-${team.id}`)
+positionInput.setAttribute('id', `position-input-${team.id}`);
 positionInput.setAttribute('type', 'text');
 positionInput.setAttribute('class', 'form-control');
 let newMemberButton = createNewMemberButton(team);
