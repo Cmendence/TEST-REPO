@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#title-head{
+    color: white;
+    font-family: Futura;
+    font-size: 64px;
+}
+
+#body {
+    text-align: center;
+    font-size: 12px;
+}
+
+#photo-caption {
+
+}
+
